@@ -1,26 +1,10 @@
-
-/*Media Queries*/
-/* Large desktops and laptops */
-@media (min-width: 1200px) {
-
+body {background: black; }
+article {
+    display: flex;
+    justify-content: center;
 }
-
-/* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-/* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
-
-}
-
-/* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-
-}
-
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-
+#battlefield {
+    border: solid 4px rgb(124, 124, 124);
+    background: rgb(67, 59, 114);
+    
 }
